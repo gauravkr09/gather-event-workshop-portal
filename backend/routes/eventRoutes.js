@@ -1,0 +1,2 @@
+import {Router} from 'express'; import {listEvents,getEvent,createEvent,updateEvent,deleteEvent} from '../controllers/eventController.js'; import {adminAuth} from '../middleware/adminAuth.js';
+const router=Router();router.get('/',listEvents);router.get('/:id',getEvent);router.post('/',adminAuth,createEvent);router.put('/:id',adminAuth,updateEvent);router.delete('/:id',adminAuth,deleteEvent);export default router;

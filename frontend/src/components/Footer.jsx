@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer mt-5"><div className="container py-4 d-flex flex-column flex-md-row justify-content-between gap-2"><span className="brand text-white">gather<span className="brand-dot">.</span></span><span>Make time for ideas worth sharing.</span><span>© {new Date().getFullYear()} Gather Events</span></div></footer>}

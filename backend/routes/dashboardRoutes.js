@@ -1,0 +1,1 @@
+import {Router} from 'express';import {stats,dashboardEvents} from '../controllers/dashboardController.js';import {adminAuth} from '../middleware/adminAuth.js';const router=Router();router.use(adminAuth);router.get('/stats',stats);router.get('/events',dashboardEvents);export default router;

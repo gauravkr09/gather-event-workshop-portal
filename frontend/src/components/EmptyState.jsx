@@ -1,0 +1,1 @@
+export default function EmptyState({clear}){return <div className="empty-state"><div className="empty-icon">✳</div><h3>No events found</h3><p className="text-secondary">Try another search or clear your filters to explore all events.</p><button className="btn btn-dark rounded-pill px-4" onClick={clear}>Clear filters</button></div>}

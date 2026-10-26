@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="loading-state"><div className="spinner-border text-primary" role="status"><span className="visually-hidden">Loading...</span></div><p className="mt-3 mb-0 text-secondary">Finding events for you…</p></div>}
